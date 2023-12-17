@@ -7,7 +7,9 @@
   
   # HTML Web Developer - DIO
 
-  Bem-vindo ao repositório do curso HTML Web Developer da DIO (Digital Innovation One). Aqui você encontrará uma coleção de exercícios e o projeto prático desenvolvido durante o curso. O objetivo é consolidar os conhecimentos adquiridos nas seguintes áreas:
+  Bem-vindo ao repositório do curso HTML Web Developer da DIO (Digital Innovation One). Aqui você encontrará uma coleção de exercícios e o projeto prático desenvolvido durante o curso. O objetivo é consolidar os conhecimentos adquiridos.
+
+  <strong>Deploy projeto final:</strong> <a href="https://dio-html-web-developer.vercel.app/">Reconstrução da Wikipédia</a>
 </div>
 
 ## Resumo:

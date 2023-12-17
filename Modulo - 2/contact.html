@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-bt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./icons/clinlogo.ico" type="image/x-icon">
+    <title>MedClin | Sua saúde</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+<!-- M E N U -->
+
+        <div class="menu">
+            <p class="logomenu"> <img src="./logos/clinlogo.png" width="50px" alt="logo da clinica"></p>
+            <p class="namemenu"><strong>Menu</strong></p>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="about.html">Sobre</a></li>
+                <li><a href="openinghours.html">Horários</a></li>
+                <li><a href="contact.html">Contato</a></li>
+            </ul>
+        </div>
+
+<!-- M A I N -->
+
+        <div id="inicio" class="main">
+            <div class="header">
+                <img src="./img/contactclin.jpg" width="1000px" height="400px" alt="Clínica">
+            </div>
+    
+            <div class="content">
+                <h1>Entre em contato e agende sua consulta</h1>
+                <span class="tel">
+                    <p><b>Telefones:</b> <br> 
+                        Telefone: +55 (11) 99777-7779 <br>
+                        Celular: +55 (11) 77999-9997 <br>
+                        Whatsapp: <a href="">+55 (11) 44555-5554 <img src="./logos/whatslogo.png" alt="logowhats" width="20px"></a>
+                    </p>    
+                </span>
+
+                <span class="ende">
+                    <strong>Endereço</strong>
+                    <p>R. Leopoldino silveira, 725, Jabaquara-SP</p>
+                </span>
+
+                <h2>Formulário de contato</h2>
+                <form action="#" method="post" autocomplete="on" onsubmit="alert('Agradecemos a preferência, retornaremos assim que possível !')">
+                    
+                    <label for="name">Nome</label><input type="text" name="name" id="name"><br> 
+                    <label for="email">Email</label><input type="email" name="email" id="email"><br>
+                    <label for="tel">Celular</label><input type="tel" name="tel" id="tel" maxlength="11"><br>
+                    <label for="subject">Assunto</label><input type="text" name="subject" id="subject"><br>
+                    <label for="text">Mensagem</label><br>
+                    <textarea name="text" id="text" cols="30" rows="10"></textarea><br>
+                    <button type="submit">Enviar</button><button type="reset">Limpar</button>
+                </form>
+
+                <span>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14620.561864165393!2d-46.65527802766414!3d-23.635140096493576!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1670783221982!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </span>
+            </div>
+    
+<!-- F O O T E R -->
+
+            <div class="footer" >
+                <p><a href="#inicio">Voltar ao Início</a></p>
+                <div>
+                    <p style="text-align: center;"><img src="./logos/clinlogo.png" width="75px" alt="logo da clinica"></p>
+                    <p><a href="#">Nosso Trabalho</a> 
+                    <a href="#">Carreiras</a></p>
+                </div>
+
+                <div class="redes">
+                    <p><strong>Redes Sociais</strong></p>
+                    <p><a target="_blank" href="https://www.facebook.com/"><img src="./logos/facelogo.png" width="25px" alt="logo do facebook"></a>
+                    <a target="_blank" href="https://www.instagram.com/"><img src="./logos/inslogo.png" width="25px" alt="logo do instagram"></a>
+                    <a target="_blank" href="https://www.youtube.com/"><img src="./logos/ytlogo.png" width="28px" height="25px" alt="logo do youtube"></a></p>
+                </div>
+
+                <div class="box__copyright">
+                    <hr>
+                    <p><i>Todos os Direitos Reservados © 2022 <b>Max Ramos</b></i></p>
+                    <p><a target="_blank" href="https://github.com/maxjdev"><img src="./logos/github.png" width="50px" alt="github"></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/maxramosdev/"><img src="./logos/linklogo.png" width="28px" alt="linkedin"></a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

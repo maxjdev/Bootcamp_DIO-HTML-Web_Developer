@@ -1,0 +1,64 @@
+html, body {
+    margin: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: white;
+}
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color: #8FBC8F;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: white;
+    min-height: 150px;
+    text-align: center;
+}
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+    text-align: center;
+}
+.footer {
+    background-color: #D3D3D3;
+    min-height: 150px;
+    text-align: center;
+}
+.box__copyright {
+    background-color: #D3D3D3;
+}
+.logomenu {
+    text-align: center;
+}
+tr {
+    text-align: center;
+}
+.namemenu {
+    text-align: center;
+}
+.tel {
+    display: inline-table;
+}
+.ende {
+    display: inline-table;
+    margin-inline: 50px;
+}
+.tab1 {
+    text-align: center;
+}
